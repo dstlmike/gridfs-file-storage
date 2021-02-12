@@ -33,8 +33,8 @@ class App extends PureComponent<{}> {
 
         <div className="Routes">
           <Switch>
-            <Route exact path='/' component={UploadPage} />
-            <Route exact path='/list' component={ListPage} />
+            <Route exact path='/uploads' component={UploadPage} />
+            <Route exact path='/uploads' component={ListPage} />
             <Redirect from='/**' to='/' />
           </Switch>
         </div>
